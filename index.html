@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Practice CSS basics and the Box Model using clean, organized styling.">
+  <meta name="author" content="Your Name">
+  <title>CSS Basics & The Box Model</title>
+
+  <!-- Link external stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <h1>Learning CSS Basics & The Box Model</h1>
+    <p class="tagline">Understanding spacing, sizing, and visual structure in CSS</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="main-nav">
+    <ul>
+      <li><a href="#intro">Introduction</a></li>
+      <li><a href="#boxmodel">The Box Model</a></li>
+      <li><a href="#example">Example Layout</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main content -->
+  <main>
+    <section id="intro" class="content-section">
+      <h2>Introduction to CSS</h2>
+      <p>
+        Cascading Style Sheets (CSS) allows us to style HTML elements and control how they look
+        on the page. From colors and fonts to layout and spacing, CSS brings structure and visual appeal
+        to a website.
+      </p>
+    </section>
+
+    <section id="boxmodel" class="content-section">
+      <h2>Understanding the Box Model</h2>
+      <p>
+        Every element in CSS is a rectangular box made up of <strong>content</strong>, <strong>padding</strong>,
+        <strong>border</strong>, and <strong>margin</strong>. These properties determine how much space an
+        element takes up and how it interacts with others.
+      </p>
+      <ul>
+        <li><strong>Content:</strong> The actual text or image inside the box.</li>
+        <li><strong>Padding:</strong> Space between content and the border.</li>
+        <li><strong>Border:</strong> The edge surrounding the padding and content.</li>
+        <li><strong>Margin:</strong> Space outside the border, separating elements.</li>
+      </ul>
+    </section>
+
+    <section id="example" class="content-section">
+      <h2>Box Model Example</h2>
+      <div class="card">
+        <h3>Card Title</h3>
+        <p>
+          This is a simple example of how the CSS Box Model works. The card has padding for inner space,
+          a border for definition, and margin for spacing between other elements.
+        </p>
+        <button class="learn-btn">Learn More</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 Paul Mbui | PLP Project</p>
+  </footer>
+</body>
+</html>
